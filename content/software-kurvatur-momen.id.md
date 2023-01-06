@@ -10,6 +10,7 @@ author: "Duken Marga"
 # you can close something for this content if you open it in config.toml.
 comment: false
 mathjax: false
+contentCopyright: '<img src="https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by.png" style="height:40px" /><br><a rel="license noopener" href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0 license.</a>'
 ---
 
 ### Pengantar
