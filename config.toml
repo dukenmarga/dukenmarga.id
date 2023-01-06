@@ -2,3 +2,18 @@ baseURL = 'https://dukenmarga.id/'
 languageCode = 'en-us'
 title = 'Duken Marga'
 theme = 'jane'
+
+defaultContentLanguage = "en"
+[languages]
+    [languages.id]
+        languageCode = "id-id"
+        baseURL = "https://dukenmarga.id/"
+        languageName = "Indonesia"
+        title = "Duken Marga"
+        weight = 1
+    [languages.en]
+        languageCode = "en-us"
+        baseURL = "https://dukenmarga.id/"
+        languageName = "English"
+        title = "Duken Marga"
+        weight = 2
