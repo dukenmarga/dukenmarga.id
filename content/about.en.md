@@ -20,3 +20,11 @@ I have worked for Rekayasa Industri and helped build 2 geothermal power plants (
 
 
 My areas of expertise include: structural analysis and design, problem solving (engineering and construction), web programming, communication, leadership, continuous learning/development, and resiliency.
+
+--------
+
+Nama saya Duken Marga. Saya banyak memiliki berpengalaman di bidang Rekayasa Struktur dan memiliki pemahaman yang baik tentang desain struktur tahan gempa (bangunan, non-bangunan, arsitektural, dan mekanikal). Saya memiliki pengetahuan yang baik tentang mekanika bahan, pemodelan struktur, dan analisis numerik.
+
+Saya pernah bekerja di PT Rekayasa Industri dan menyelesaikan proyek pembangkit listrik tenaga geotermal (PLTP) dan 1 proyek regasifikasi LNG. Saya juga pernah bekerja untuk Indokomas Buana Perkasa menyelesaikan 3 substation elektrikal, 1 ekstensi pabrik fragrance, dan 1 data center skala internasional. Awal karir saya dimulai dengan bekerja sebagai staf engineering di Laboratorium Bahan dan Beton di Institut Teknologi Bandung. Saat ini saya bekerja paruh waktu untuk proyek sampingan saya, LinearStep, sebuah aplikasi berbasis web untuk membantu engineer mendesain elemen struktur beton sesuai dengan SNI 2847:2019 atau ekivalen dengan ACI 319M-14.
+
+Bidang keahlian saya termasuk: analisis dan desain struktur, pemecahan masalah (rekayasa desain dan konstruksi), web programming, komunikasi, kepemimpinan, pembelajaran berkesinambungan, dan resiliensi.
