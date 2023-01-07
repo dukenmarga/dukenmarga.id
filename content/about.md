@@ -4,7 +4,7 @@ title: "About"
 date: 2022-01-06T18:03:23+07:00
 lastmod: 2022-01-06T18:03:23+07:00
 menu: "main"
-weight: 50
+weight: 101
 author: "Duken Marga"
 
 # you can close something for this content if you open it in config.toml.
