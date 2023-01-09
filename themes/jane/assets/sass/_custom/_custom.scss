@@ -2,3 +2,13 @@
 // Custom style
 // ==============================
 // You can override the variables in _variables.scss to customize the style
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+// Font family of the site.
+$global-font-family: 'Source Sans Pro', sans-serif;
+
+// Serif font family of the site.
+$global-serif-font-family: 'Roboto Slab', serif;
+
+$logo-font-family: 'Roboto Slab', serif;
