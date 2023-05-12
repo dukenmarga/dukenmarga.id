@@ -4,9 +4,10 @@
 // You can override the variables in _variables.scss to customize the style
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 // Font family of the site.
-$global-font-family: 'Source Sans Pro', sans-serif;
+$global-font-family: 'Inter', sans-serif;
 
 // Serif font family of the site.
 $global-serif-font-family: 'Roboto Slab', serif;
@@ -15,4 +16,16 @@ $logo-font-family: 'Roboto Slab', serif;
 
 .img {
     text-align: center;
+    border: 1px solid #ddd;
+}
+.post-content, .post-copyright, .post-tags {
+    font-size: 16px;
+}
+
+.post-meta {
+    font-size: 16px;
+}
+
+h1.post-title {
+    font-size: 1.8em !important;
 }
