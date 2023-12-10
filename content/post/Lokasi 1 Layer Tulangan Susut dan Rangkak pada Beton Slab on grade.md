@@ -32,29 +32,32 @@ jika nilainya cukup signifikan.
 1. ***Plain concrete slab***: Slab beton polos tanpa adanya tulangan, kawat, serat, kabel post-tension, atau bentuk tulangan lainnya. Slab dianggap tidak crack akibat beban yang diberikan.
    Untuk mengurangi efek retak susut pada saat *curing* beton (drying-shrinkage crack), PCA menyarankan spacing atau jarak contruction joint diambil 600-900mm setiap 25mm kebetalan beton.
    Misalkan ketebalan beton 50mm, maka setiap 1200mm slab harus dibuatkan *contruction joint*. 
-2. ***Slab reinforced for shrinkage and temperature only***: Slab dengan tulangan suhu dan susut. Penambahan tulangan ditujukan untuk menangkap dan mengendalikan retak yang mungkin terbentuk antar sambungan.
-   Tulangan juga tidak bisa digunakan untuk mencegah retak tidak terbentuk, karena sudah pasti terbentuk. Tulangan juga tidak berfungsi untuk meningkatkan kapasitas beban yang bisa diterima slab.
-   Cara terbaik untuk meningkatkan kapasitas lentur *slab-on-ground* adalah justru dengan meningkatkan tebal dari slab itu sendiri. 
+2. ***Slab reinforced for shrinkage and temperature only***: Slab dengan tulangan suhu dan tulangan susut. Penambahan tulangan ditujukan untuk menangkap dan mengendalikan retak yang mungkin terbentuk antar sambungan.
+   Yang perlu diperhatikan, fungsi utama tulangan bukanlah untuk mencegah retak, karena retak sudah pasti terbentuk. Tulangan juga tidak berfungsi untuk meningkatkan nilai beban yang bisa diterima *slab-on-ground* (tidak seperti pada balok beton pada gedung).
+   Justru uniknya, cara terbaik untuk meningkatkan kapasitas lentur *slab-on-ground* adalah dengan menambah tebal slab itu sendiri, bukan dengan menambah tulangan.
 3. ***Shrinkage-compensating concrete with shrinkage reinforcement***: Slab dengan tulangan kompensasi susut. Jumlah tulangan susut biasanya berkisar 0.15-0.20 persen dari luas potongan (*cross section*) slab
    dan biasanya diletakkan di sisi atas untuk membatasi *initial expansion* dan mengurangi laju susut pada saat curing (drying shrinkage).
 4. ***Slab post-tensioned to offset shrinkage***: Slab dengan tambahan kabel post-tensioned. Adanya post-tensioned akan meminimalkan jumlah crack, sehingga spacing antar join bisa lebih panjang dibandingkan
    tanpa tulangan.
 5. ***Slab post-tensioned and/or reinforced, with active prestress***: Slab dengan kabel prestres aktif. Adanya tegangan aktif bisa mengurangi tebal slab. 
 6. ***Slab reinforced for structural action***: Slab dengan tulangan yang berfungsi struktural. Crack mungkin terjadi akibat beban yang ada. Desain dan posisi tulangan pada tipe ini harus
-   didesain dengan metode konvensional yang kita ketahui atau bisa menggunakan metode numerik (misal dengan software *Finite Element Method*). Tipsnya: jika stress/tegangan pada beton akibat kombinasi
+   didesain dengan metode konvensional yang kita ketahui atau bisa menggunakan metode numerik (misal dengan software *Finite Element Method*). Tipsnya: jika ternyata stress/tegangan pada beton akibat kombinasi
    beban sudah mendekati atau lebih besar dari tegangan crack beton (kurang lebih 10% fc'), maka slab sebaiknya didesain sebagai slab struktural.
 
 Slab nomor 1-5 didesain dengan asumsi bahwa slab tidak mengalami retak akibat beban yang diberikan, sedangkan slab nomor 6 didesain dengan mengantisipasi adanya retak akibat beban yang diberikan.
 
 ## Lokasi Tulangan 2 Layer
-Untuk *slab on grade* yang memiliki fungsi struktural ataupun yang perilakunya didominasi oleh beban static/dinamik, perlu untuk menghitung berapa kebutuhan jumlah tulangan. Umumnya, diperlukan 2 lapis tulangan: sisi atas dan bawah.
+Untuk *slab on grade* yang memiliki fungsi struktural ataupun yang perilakunya didominasi oleh beban static/dinamik (tipe nomor 6 di atas), kita perlu menghitung berapa kebutuhan jumlah tulangan. Umumnya, diperlukan 2 lapis tulangan: sisi atas dan bawah.
 
-Sebagai contoh: slab dengan beban titik seperti pedestal/kolom pendek kemungkinan besar akan memiliki momen negatif dan positif akibat gaya dari pedestal, biasanya akibat beban lateral. Posisi peletakan tulangan ditentukan dengan memerhatikan
-*minimum slab cover* yang merupakan fungsi dari lingkungan tempat slab akan dipasang. Slab yang berfungsi menahan air juga biasanya memiliki persyaratan khusus untuk mencegah retak berlebih.
+Beberapa contoh:
+- Slab dengan beban titik seperti pedestal/kolom pendek kemungkinan besar akan memiliki momen negatif dan positif akibat gaya dari pedestal, biasanya akibat beban lateral. Posisi perletakan tulangan ditentukan dengan memerhatikan
+*minimum slab cover* yang merupakan fungsi dari lingkungan tempat slab akan dipasang.
+- Slab yang berfungsi menahan air juga biasanya memiliki persyaratan khusus untuk mencegah retak berlebih.
+
 Semua elemen dalam perancangan harus menjadi pertimbangan dalam menentukan jumlah dan posisi tulangan. Saya rasa semua engineer yang berpengalaman sudah cukup familiar dengan skema ini.
 
 ## Lokasi Tulangan 1 Layer
-Lalu bagaimana jika *slab on ground* yang direncanakan justru memiliki fungsi arsitektural? Fungsi arsitektural berarti: tidak ada beban statik/dinamis yang memberikan momen berarti pada slab.
+Lalu bagaimana jika *slab on ground* yang direncanakan tidak masuk dalam kategori slab struktural atau justru memiliki fungsi arsitektural saja? Fungsi arsitektural berarti: tidak ada beban statik/dinamis yang memberikan momen berarti pada slab.
 Jika dicek kembali, justru persyaratan tulangan minimumlah yang menjadi batasan dalam penentuan jumlah tulangan. Seperti yang kita tahu, jumlah tulangan minimum harus terpenuhi untuk mengantisipasi
 tidak berfungsinya slab akibat retak berlebih dari beban lingkungan seperti suhu (*temperature*) dan susut (*shrinkage*) pada kasus slab atau untuk menghindari kegagalan getas (*brittle*) pada kasus balok.
 
