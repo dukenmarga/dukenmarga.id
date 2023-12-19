@@ -5,7 +5,7 @@ date: 2023-12-10T00:00:00+07:00
 lastmod: 2023-12-10T00:00:00+07:00
 draft: false
 tags: ["concrete", "test", "crush"]
-categories: ["Structural"]
+categories: ["Material", "index"]
 author: "Duken Marga"
 
 # User-Defined
