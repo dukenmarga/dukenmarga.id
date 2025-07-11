@@ -1,7 +1,8 @@
 /* --- General --- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
 
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: "Source Serif 4", serif;
   font-size: 18px;
   color: #404040;
   position: relative;
@@ -46,7 +47,7 @@ p a {
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Rubik', Helvetica, Arial, sans-serif;
   font-weight: 800;
 }
 a {
@@ -91,7 +92,7 @@ hr.small {
 }
 
 .main-explain-area {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Rubik',  Helvetica, Arial, sans-serif;
   padding: 15px inherit;
 }
 
@@ -100,7 +101,7 @@ hr.small {
 }
 
 div.panel-body a.list-group-item {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Rubik',  Helvetica, Arial, sans-serif;
   font-weight: 800;
   border-radius: 0;
   border: none;
@@ -162,7 +163,7 @@ figure:not(.dark) img, img.white {
 .navbar-custom {
   background: #F5F5F5;
   border-bottom: 1px solid #EAEAEA;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Roboto',  Helvetica, Arial, sans-serif;
 }
 @media (prefers-color-scheme: dark) {
   .navbar-custom {
@@ -371,7 +372,7 @@ footer .list-inline {
   padding: 0;
 }
 footer .copyright {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Rubik', Helvetica, Arial, sans-serif;
   text-align: center;
   margin-bottom: 0;
 }
@@ -390,7 +391,7 @@ footer div.disclaimer {
   background-color: #fdf5d4;
   border-left-color: #f1c40f;
   border-right-color: #f1c40f;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Rubik', Helvetica, Arial, sans-serif;
   text-align: center;
 }
 
@@ -475,7 +476,7 @@ footer div.disclaimer {
   text-decoration: none;
 }
 .post-preview .post-entry {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Source Serif 4', serif;
 }
 .post-entry-container {
   display: inline-block;
@@ -514,7 +515,7 @@ footer div.disclaimer {
 /* --- Tags --- */
 
 .blog-tags {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Source Serif 4', serif;
   color: #999;
   font-size: 15px;
   margin-bottom: 30px;
@@ -619,7 +620,7 @@ footer div.disclaimer {
   font-size: 27px;
   line-height: 1.1;
   display: block;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Rubik', Helvetica, Arial, sans-serif;
   font-weight: 300;
   margin: 10px 0 0;
 }
@@ -644,7 +645,7 @@ footer div.disclaimer {
   padding: 5px 10px;
   font-size: 11px;
   color: #EEE;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Rubik', Helvetica, Arial, sans-serif;
   right: 0;
   bottom: 0;
   display: none;
@@ -719,7 +720,7 @@ footer div.disclaimer {
 /* --- Pager --- */
 
 .pager li a {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Rubik', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
@@ -853,7 +854,7 @@ div.splitbox div.right {
 
 /* Delayed Disqus */
 .disqus-comments button {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Rubik', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 800;
@@ -993,3 +994,107 @@ h4.see-also {
     background-color: #e0e0e0;
   }
   
+
+/* Custom/Additional Styling */
+.box {
+  border: #999 solid 1px;
+  padding: 15px;
+}
+
+figcaption {
+  text-align: center;
+  font-family: 'Rubik', Courier, monospace;
+  color:#2c456b;
+}
+
+article, .post-entry {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.blog-tags, .post-read-more {
+  font-family: "Rubik", sans-serif;
+}
+
+article h1,h2,h3,h4,h5,h6 {
+  text-align: start;
+}
+
+body {
+  background-color: #f2f2f5;
+}
+
+.container {
+  padding: 0px;
+}
+
+.navbar {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+}
+
+.disqus-comments {
+  text-align: center;
+}
+.disqus-comments button {
+  color: #2c456b;
+  padding: 12px 12px;
+}
+.post-title, .post-heading {
+  text-align: center;
+}
+
+.post-preview, .blog-post {
+  background-color: #FFF;
+  border-radius: 5px;
+  padding: 40px 80px;
+  margin: 0px 0px 35px 0px;
+}
+
+.page-subheading {
+  padding: 10px;
+}
+
+@media only screen and (max-width: 900px) {
+  .post-preview{
+    background-color: #FFF;
+    border-radius: 5px;
+    padding: 20px 20px;
+  }
+  .blog-post {
+    background-color: #FFF;
+    border-radius: 5px;
+    padding: 20px 20px;
+    margin: 0px;
+  }
+  .post-heading {
+    padding: 15px;
+  }
+  .page-subheading {
+    padding: 13px;
+  }
+}
+
+
+
+
+li.previous a, li.next a {
+  color: #2c456b;
+}
+
+@media only screen and (max-width: 767px) {
+  .pager {
+    padding: 20px 0px;
+  }
+  li.previous a, li.next a {
+    padding: 12px 12px;
+  }
+}
+
+.post-preview .post-meta {
+  font-style: normal;
+}
+
+.intro-header .page-heading h1 {
+  font-size: 50px;
+}
