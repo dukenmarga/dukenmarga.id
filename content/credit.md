@@ -18,7 +18,7 @@ Credit to all below technologies used for making this website.
 
 Static Blog: [Hugo](https://gohugo.io/)
 
-Theme: [Jane](https://github.com/xianmin/hugo-theme-jane)
+Theme: [Beautiful Hugo](https://github.com/halogenica/beautifulhugo)
 
 Icon: [Engineer icons created by Flat Icons - Flaticon](https://www.flaticon.com/free-icons/beam)
 
