@@ -5,7 +5,7 @@ date: 2022-01-09T00:00:00+07:00
 lastmod: 2023-05-10T00:00:00+07:00
 draft: false
 tags: ["concrete", "slab", "reinforcement"]
-categories: ["Structural Design", "index"]
+categories: ["Structural Engineering", "index"]
 author: "Duken Marga"
 
 # User-Defined

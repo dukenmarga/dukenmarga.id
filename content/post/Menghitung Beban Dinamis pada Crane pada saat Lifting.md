@@ -5,7 +5,7 @@ date: 2023-05-10T00:00:00+07:00
 lastmod: 2023-05-10T00:00:00+07:00
 draft: false
 tags: ["crane", "dynamic", "load"]
-categories: ["Structural Analysis", "index"]
+categories: ["Structural Engineering", "index"]
 author: "Duken Marga"
 
 # User-Defined
