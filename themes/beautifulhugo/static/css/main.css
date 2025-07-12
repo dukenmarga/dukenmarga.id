@@ -1,10 +1,9 @@
 /* --- General --- */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=Roboto:ital,wght@0,800;1,800&family=Rubik:ital,wght@0,300..900;1,300..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
 body {
   font-family: "Source Serif 4", serif;
   font-size: 18px;
-  color: #404040;
+  color: #111822;
   position: relative;
   background: #FFF;
   display: flex;
@@ -1004,7 +1003,8 @@ h4.see-also {
 figcaption {
   text-align: center;
   font-family: 'Rubik', Courier, monospace;
-  color:#2c456b;
+  color:#111822;
+  font-size: 16px;
 }
 
 article, .post-entry {
@@ -1046,7 +1046,6 @@ body {
 
 .post-preview, .blog-post {
   background-color: #FFF;
-  border-radius: 5px;
   padding: 40px 80px;
   margin: 0px 0px 35px 0px;
 }
@@ -1076,8 +1075,6 @@ body {
 }
 
 
-
-
 li.previous a, li.next a {
   color: #2c456b;
 }
@@ -1097,4 +1094,57 @@ li.previous a, li.next a {
 
 .intro-header .page-heading h1 {
   font-size: 50px;
+}
+
+.highlight {
+  padding: 0px;
+}
+.highlight pre {
+  background: #002B36 !important;
+}
+pre code {
+  font-family: "Fira Mono", monospace !important;
+}
+
+ul.share li a {
+  background: #c0c5ce;
+}
+
+ul.share li .fab {
+  color: #111822;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #191d27;
+    color: #eee;
+  }
+  .post-preview {
+    background: #111822;
+  }
+  .navbar, footer {
+    background-color: #303f50;
+    border-bottom: 1px solid #ddd;
+  }
+  .navbar * {
+    color: #eee !important;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    color: #eee;
+  }
+  .blog-post {
+    background-color: #111822;
+  }
+  li.previous a, li.next a {
+    background: #ddd;
+  }
+  .navlinks-children a {
+    background: #111822 !important;
+  }
+  .navbar-custom .nav .navlinks-container.show-children{
+    background: #111822 !important;
+  }
+  figcaption {
+    color:#eee;
+  }
 }
