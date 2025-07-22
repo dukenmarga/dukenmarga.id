@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dynamic on Duken Marga</title><link>http://localhost:1313/tags/dynamic/</link><description>Recent content in Dynamic on Duken Marga</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 10 May 2023 00:00:00 +0700</lastBuildDate><atom:link href="http://localhost:1313/tags/dynamic/index.xml" rel="self" type="application/rss+xml"/><item><title>Menghitung Beban Dinamis pada Crane pada saat Lifting</title><link>http://localhost:1313/post/menghitung-beban-dinamis-pada-crane-pada-saat-lifting/</link><pubDate>Wed, 10 May 2023 00:00:00 +0700</pubDate><guid>http://localhost:1313/post/menghitung-beban-dinamis-pada-crane-pada-saat-lifting/</guid><description>&lt;h2 id="hukum-newton-dan-perubahan-momentum">Hukum Newton dan Perubahan Momentum&lt;/h2>
+&lt;p>Bagaimana cara sederhana menghitung total beban crane akibat tambahan beban dinamis?&lt;/p>
+&lt;p>Mengacu pada Hukum Newton, gaya terjadi akibat adanya percepatan pada suatu massa. Namun, jika di-&lt;em>extend&lt;/em> ke level selanjutnya, gaya terjadi akibat adanya perubahan momentum terhadap waktu.&lt;/p>
+&lt;p>$$
+F = \dfrac{d(mv)}{dt}
+$$&lt;/p>
+&lt;p>$$
+F = m\dfrac{dv}{dt} + v\dfrac{dm}{dt}
+$$&lt;/p>
+&lt;p>&lt;strong>m&lt;/strong> = massa dalam kg dan
+&lt;strong>v&lt;/strong> = kecepatan dalam m/s&lt;/p>
+&lt;p>Aplikasinya pada bidang struktur, beban statik dan dinamik hanya menggunakan bagian yang pertama saja (sisi kiri). Ini bisa kita artikan sebagai massa dengan perubahan kecepatan terhadap waktu.&lt;/p></description></item></channel></rss>
