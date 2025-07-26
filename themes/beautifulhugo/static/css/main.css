@@ -1105,6 +1105,10 @@ li.previous a, li.next a {
 pre code {
   font-family: "Fira Mono", monospace !important;
 }
+code {
+  font-family: "Fira Mono", monospace;
+  font-size: 13px;
+}
 
 ul.share li a {
   background: #c0c5ce;
