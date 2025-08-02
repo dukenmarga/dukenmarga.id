@@ -1,4 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Duken Marga</title><link>https://dukenmarga.id/post/</link><description>Recent content in Posts on Duken Marga</description><generator>Hugo</generator><language>en</language><lastBuildDate>Mon, 14 Jul 2025 00:00:00 +0700</lastBuildDate><atom:link href="https://dukenmarga.id/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Error Handling in Go</title><link>https://dukenmarga.id/post/error-handling-in-go/</link><pubDate>Mon, 14 Jul 2025 00:00:00 +0700</pubDate><guid>https://dukenmarga.id/post/error-handling-in-go/</guid><description>&lt;h3 id="error-as-value">Error As Value&lt;/h3>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Duken Marga</title><link>https://dukenmarga.id/post/</link><description>Recent content in Posts on Duken Marga</description><generator>Hugo</generator><language>en</language><lastBuildDate>Sat, 02 Aug 2025 00:00:00 +0700</lastBuildDate><atom:link href="https://dukenmarga.id/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Convert map[string]interface{} to Struct as Generic Function in Go</title><link>https://dukenmarga.id/post/convert-map-string-interface-to-struct-as-generic-function-in-go/</link><pubDate>Sat, 02 Aug 2025 00:00:00 +0700</pubDate><guid>https://dukenmarga.id/post/convert-map-string-interface-to-struct-as-generic-function-in-go/</guid><description>&lt;h3 id="several-methods-to-convert">Several Methods to Convert&lt;/h3>
+&lt;p>There are several methods to convert &lt;code>map[string]interface{}&lt;/code> to a &lt;code>struct&lt;/code>
+in Go.&lt;/p>
+&lt;ul>
+&lt;li>Using &lt;code>reflect&lt;/code>. This is the fastest. But, it will produce complicated long
+code. If not well coded, it will have problems with
+nested map. I will not discuss this method.&lt;/li>
+&lt;li>&lt;strong>Using &lt;code>json&lt;/code> standard library&lt;/strong>. First we marshal the map as json string
+and after that unmarshal it as a struct. &lt;strong>This is what I will be talking about.&lt;/strong>
+It is slow, but reliable. Nested map are handled performantly.&lt;/li>
+&lt;li>Using external library such as &lt;a href="https://github.com/mitchellh/mapstructure">mitchellh/mapstructure&lt;/a>. It is not maintained anymore. But, you can still use
+it, since it is stable and has achieved its original intention.&lt;/li>
+&lt;li>Using simple loop and check one by one using &lt;code>switch&lt;/code>-&lt;code>case&lt;/code>. You need to
+hard-coded all the map properties, hence it&amp;rsquo;s not practical since it
+can&amp;rsquo;t be reused for different struct type.&lt;/li>
+&lt;/ul>
+&lt;h3 id="converting-to-struct">Converting to Struct&lt;/h3>
+&lt;p>The code below is the original non-generic method that can be used to
+convert any map to string. Don&amp;rsquo;t forget to include the json tag as per your
+intention, so the &lt;code>json&lt;/code> library can convert it correctly.&lt;/p></description></item><item><title>Error Handling in Go</title><link>https://dukenmarga.id/post/error-handling-in-go/</link><pubDate>Mon, 14 Jul 2025 00:00:00 +0700</pubDate><guid>https://dukenmarga.id/post/error-handling-in-go/</guid><description>&lt;h3 id="error-as-value">Error As Value&lt;/h3>
 &lt;p>Error is treated as value in Go. No &lt;code>try/catch&lt;/code>, but there is &lt;code>panic/recover&lt;/code>.
 Other programming languages is using &lt;code>try/catch&lt;/code> for regular error,
 while Go use &lt;code>panic/recover&lt;/code> for fatal or unrecoverable condition such
