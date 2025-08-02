@@ -1024,6 +1024,10 @@ body {
   background-color: #f2f2f5;
 }
 
+p + p {
+  margin: 12px 0px 6px 0px;
+}
+
 .container {
   padding: 0px;
 }
